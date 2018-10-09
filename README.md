@@ -114,3 +114,29 @@
     >This paper addresses the tasks of automatic seed selection for bootstrapping relation extraction, and noise reduction for distantly supervised relation extraction.
 
 ## AAAI 2018
+
+1. **Large Scaled Relation Extraction with Reinforcement Learning**
+    _Xiangrong Zeng, Shizhu He, Kang Liu, Jun Zhao_
+    AAAI 2018
+    [paper](http://www.nlpr.ia.ac.cn/cip/~liukang/liukangPageFile/zeng_aaai2018.pdf)
+    
+    DSRE: sentence level rather than bag level
+    >In this paper, we learn the relation extractor with reinforcement learning method on the distant supervised dataset. The bag relation is used as the distant supervision which guide the training of relation extractor. We also apply the relation extractor to help bag relation extraction
+
+2. **SEE: Syntax-aware Entity Embedding for Neural Relation Extraction**
+    _Zhengqiu He*, Wenliang CHEN, Meishan Zhang, Zhenghua Li, Wei Zhang, Min Zhang_
+    AAAI 2018
+    [paper](http://arxiv.org/abs/1801.03603)
+    
+    DSRE
+    >we propose to learn syntax-aware entity embedding for neural relation extraction. First, we encode the context of entities on a dependency tree as sentence-level entity embedding based on tree-GRU. Then, we utilize both intra-sentence and inter-sentence attentions to obtain sentence set-level entity embedding over all sentences containing the focus entity pair. Finally, we combine both sentence embedding and entity embedding for relation classification.
+
+3. **Reinforcement Learning for Relation Classification from Noisy Data**
+    _Jun Feng, Minlie Huang, Li Zhao, Yang Yang, Xiaoyan Zhu_
+    AAAI2018
+    [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/11/AAAI2018Denoising.pdf)
+    
+    DSRE: sentence level rather than bag level
+    >we propose a novel model for relation classification at the sentence level from noisy data. The model has two modules: an instance selector and a relation classifier. The instance selector chooses high-quality sentences with learning and feeds the selected sentences into the relation classifier, and the relation classifier makes sentencelevel prediction and provides rewards to the instance selector. The two modules are trained jointly to optimize the instance selection and relation classification processes.
+
+## IJCAI 2018
