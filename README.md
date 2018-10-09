@@ -6,6 +6,8 @@
     _Xiaozhi Wang, Xu Han, Yankai Lin, Zhiyuan Liu and Maosong Sun._
     COLING 2018
     [paper](http://aclweb.org/anthology/C18-1099) [code](https://github.com/thunlp/AMNRE)
+    
+    Multi-lingual NRE
     >Existing models cannot well capture the consistency and diversity of relation patterns in different languages. To address these issues, we propose an adversarial multi-lingual neural relation extraction (AMNRE) model, which builds both consistent and individual representations for each sentence to consider the consistency and diversity among languages. Further, we adopt an adversarial training strategy to ensure those consistent sentence representations could effectively extract the language-consistent relation patterns.
 
 2. **Cooperative Denoising for Distantly Supervised Relation Extraction**
@@ -49,4 +51,12 @@
 
     Temporal Relation Classification
 
-    >In this work, we extend our classification model’s task loss with an unsupervised auxiliary loss on the word-embedding level of the model.
+    >In this work, we extend our classification model’s task loss with an unsupervised auxiliary loss on the word-embedding level of the model. 
+
+7. **Adversarial Feature Adaptation for Cross-lingual Relation Classification**
+   _Bowei Zou, Zengzhuang Xu, Yu Hong and Guodong Zhou._
+   COLING 2018
+   [paper](http://aclweb.org/anthology/C18-1037)
+   
+    Multi-lingual NRE
+    > In this paper, we come up with a feature adaptation approach for cross-lingual relation classification, which employs a generative adversarial network (GAN) to transfer feature representations from one language with rich annotated data to another language with scarce annotated data. 
