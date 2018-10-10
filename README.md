@@ -140,3 +140,29 @@
     >we propose a novel model for relation classification at the sentence level from noisy data. The model has two modules: an instance selector and a relation classifier. The instance selector chooses high-quality sentences with learning and feeds the selected sentences into the relation classifier, and the relation classifier makes sentencelevel prediction and provides rewards to the instance selector. The two modules are trained jointly to optimize the instance selection and relation classification processes.
 
 ## IJCAI 2018
+
+1. **Joint Extraction of Entities and Relations Based on a Novel Graph Scheme**
+    _Shaolei Wang, Yue Zhang, Wanxiang Che, Ting Liu_
+    IJCAI 2018
+    [paper](https://www.ijcai.org/proceedings/2018/0620.pdf)
+    
+    Joint extraction of both entity and relation
+    > In this paper, we convert the joint task into a directed graph by designing a novel graph scheme and propose a transition-based approach to generate the directed graph incrementally, which can achieve joint learning through joint decoding. Our method can model underlying dependencies not only between entities and relations, but also between relations.
+    
+2. **Ensemble Neural Relation Extraction with Adaptive Boosting**
+    _Dongdong Yang, Senzhang Wang, Zhoujun Li_
+    IJCAI 2018
+    [paper](https://www.ijcai.org/proceedings/2018/0630.pdf)
+    
+    DSRE
+    >we proposed to integrate attention-based LSTMs with adaptive boosting model for relation extraction.
+
+3. **Exploring Encoder-Decoder Model for Distant Supervised Relation Extraction**
+    _Sen Su, Ningning Jia, Xiang Cheng, Shuguang Zhu, Ruiping Li_
+    IJCAI 2018
+    [paper](https://www.ijcai.org/proceedings/2018/0610.pdf)
+    
+    DSRE
+    >we present a simple yet effective encoderdecoder model for distant supervised relation extraction. Given the sentence bag of an entity pair as input, the CNN encoder extracts sentence features and merge them into a bag representation. While the LSTM decoder leverages the dependencies among the relations by predicting them in a sequential manner. To enable the sequential prediction of relations, we introduce a measure to quantify the amounts of information contained in a sentence bag for its relations, which are used to determine relation orders during training to let the model predict relations in a descending order of their amounts of information.
+
+## EMNLP
