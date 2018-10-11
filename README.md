@@ -14,7 +14,7 @@ NRC: Neural Relation Classification
 
 GCN: Graph Convolution Network
 
-Note that DSRE is a big track in RE, include _a denoising preprocessing step_ | _bootstrapping RE_ | _Learning in the noise_ .etc
+Note that DSRE is a big track in RE, including _a denoising preprocessing step_ | _bootstrapping RE_ | _Learning in the noise_ .etc
 
 ## COLING 2018
 
