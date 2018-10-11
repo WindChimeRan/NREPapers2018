@@ -165,4 +165,46 @@
     DSRE
     >we present a simple yet effective encoderdecoder model for distant supervised relation extraction. Given the sentence bag of an entity pair as input, the CNN encoder extracts sentence features and merge them into a bag representation. While the LSTM decoder leverages the dependencies among the relations by predicting them in a sequential manner. To enable the sequential prediction of relations, we introduce a measure to quantify the amounts of information contained in a sentence bag for its relations, which are used to determine relation orders during training to let the model predict relations in a descending order of their amounts of information.
 
-## EMNLP
+## NAACL 2018
+
+1. **GLOBAL RELATION EMBEDDING FOR RELATION EXTRACTION**
+    _Yu Su, Honglei Liu, Semih Yavuz, Izzeddin Gur, Huan Sun and Xifeng Yan_
+    NAACL 2018
+    [paper](http://aclweb.org/anthology/N18-1075)
+    
+    DSRE
+    >we propose to embed textual relations with global statistics of relations, i.e., the cooccurrence statistics of textual and knowledge base relations collected from the entire corpus.
+
+2. **JOINT BOOTSTRAPPING MACHINES FOR RELATION EXTRACTION**
+    _Pankaj Gupta and Hinrich Schütze_
+    NAACL 2018
+    [paper](http://aclweb.org/anthology/N18-1003)
+    
+    bootstrapping RE
+    >We have proposed a Joint Bootstrapping Machine for relation extraction (BREJ) that takes advantage of both entity-pair-centered and template-centered approaches. We have demonstrated that the joint approach scales up positive instances that boosts the confidence of NNLC extractors and improves recall. 
+
+3. **SIMULTANEOUSLY SELF-ATTENDING TO ALL MENTIONS FOR FULL-ABSTRACT BIOLOGICAL RELATION EXTRACTION**
+    _Patrick Verga, Emma Strubell and Andrew McCallum_
+    NAACL 2018
+    [paper](http://aclweb.org/anthology/N18-1080)
+    
+   **document-level RE + new task** 
+   >We present a bi-affine relation attention network that simultaneously scores all mention pairs within a document.
+   
+   >**a new, large and high-quality dataset introduced in this work.**
+
+4. **STRUCTURE REGULARIZED NEURAL NETWORK FOR ENTITY RELATION CLASSIFICATION FOR CHINESE LITERATURE TEXT**
+    _Ji Wen, Xuancheng Ren, Xu Sun and Qi Su_
+    NAACL 2018
+    [paper](http://aclweb.org/anthology/N18-2059)
+    
+    **Chinese NRC + new task**
+    >We present a novel model, named Structure Regularized Bidirectional Recurrent Convolutional Neural Network (SR-BRCNN), to identify the relation between entities. The proposed model learns relation representations along the shortest dependency path (SDP) extracted from the structure regularized dependency tree, which has the benefits of reducing the complexity of the whole model.
+
+## EMNLP 2018
+
+1. **Multi-Level Structured Self-Attentions for Distantly Supervised Relation Extraction**
+    _Jinhua Du, Jingguang Han, Andy Way and Dadong Wan_
+    EMNLP 2018
+    [paper](https://arxiv.org/pdf/1809.00699.pdf)
+    
