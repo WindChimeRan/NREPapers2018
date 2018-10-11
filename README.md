@@ -1,10 +1,10 @@
 # Relation Extraction in 2018
 
-This repo covers almost all the papers related to **Neural Relation Extraction** in ACL, EMNLP, COLING, NAACL, AAAI, IJCAI in 2018.
+This repo covers almost all the papers (35) related to **Neural Relation Extraction** in ACL, EMNLP, COLING, NAACL, AAAI, IJCAI in 2018.
 
 Use tags to search papers you like.
 
-tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network
+**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network**
 
 DSRE: Distant Supervision Relation Extraction
 
@@ -270,6 +270,8 @@ Note that DSRE is a big track in RE, include _a denoising preprocessing step_ | 
     
     paper not released
     
+    DSRE
+    
     [zhihu](https://zhuanlan.zhihu.com/p/43326102)
     
 7. **Graph Convolution over Pruned Dependency Trees Improves Relation Extraction**
@@ -289,7 +291,7 @@ Note that DSRE is a big track in RE, include _a denoising preprocessing step_ | 
     
     paper not released
 
-9 **Large-scale Exploration of Neural Relation Classification Architectures**
+9. **Large-scale Exploration of Neural Relation Classification Architectures**
     _Hoang-Quynh Le, Duy-Cat Can, Sinh T. Vu, Thanh Hai Dang, Mohammad Taher Pilehvar and Nigel Collier_
     
     EMNLP 2018
