@@ -268,11 +268,13 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     _Guanying Wang, Wen Zhang, Ruoxu Wang, Yalin Zhou and Huajun Chen_
     EMNLP 2018
     
-    paper not released
+    [paper](http://www.aclweb.org/anthology/D18-1248)
     
-    DSRE
+    DSRE | KGE
     
     [zhihu](https://zhuanlan.zhihu.com/p/43326102)
+    
+    > What if TransE + PCNN? What if we replace entity mentions with entity types? Learn Label-Free DSRE!
     
 7. **Graph Convolution over Pruned Dependency Trees Improves Relation Extraction**
     _Yuhao Zhang, Peng Qi and Christopher D. Manning_
@@ -338,8 +340,9 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     
     EMNLP 2018
     
-    paper not released
+    [paper](http://aclweb.org/anthology/D18-1120)
     
     capsule network
     
+    > Capsule Network is good at multi-label classification in RE in NLP!
     
