@@ -320,9 +320,13 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     
     few-shot
     
-    paper not released
+    [paper](http://www.aclweb.org/anthology/D18-1514)
 
     [ppt](https://www.leiphone.com/news/201809/FZM8dsm5CcQpmnNT.html)
+    
+    [leaderboard](http://www.zhuhao.me/fewrel/)
+    
+    >few shot learning is a big problem in DSRE which is far from solved! This paper introduces a new competition!
 
 12. **Genre Separation Network with Adversarial Training for Cross-genre Relation Extraction**
     _Ge Shi, Chong Feng, Lifu Huang, Boliang Zhang, Heng Ji, Lejian Liao and Heyan Huang_
