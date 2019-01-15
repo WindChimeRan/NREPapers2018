@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network**
+**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE**
 
 DSRE: Distant Supervision Relation Extraction
 
