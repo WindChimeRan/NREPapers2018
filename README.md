@@ -346,7 +346,7 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     
     [paper](http://aclweb.org/anthology/D18-1120)
     
-    capsule network
+    capsule network | Multi-label
     
     > Capsule Network is good at multi-label classification in RE in NLP!
     
