@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE**
+**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE | Multi-label**
 
 DSRE: Distant Supervision Relation Extraction
 
@@ -177,7 +177,7 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     IJCAI 2018
     [paper](https://www.ijcai.org/proceedings/2018/0610.pdf)
     
-    DSRE
+    DSRE | Multi-label
     
     >we present a simple yet effective encoderdecoder model for distant supervised relation extraction. Given the sentence bag of an entity pair as input, the CNN encoder extracts sentence features and merge them into a bag representation. While the LSTM decoder leverages the dependencies among the relations by predicting them in a sequential manner. To enable the sequential prediction of relations, we introduce a measure to quantify the amounts of information contained in a sentence bag for its relations, which are used to determine relation orders during training to let the model predict relations in a descending order of their amounts of information.
 
