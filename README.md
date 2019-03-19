@@ -291,7 +291,11 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     
     EMNLP 2018
     
-    paper not released
+    [paper](http://aclweb.org/anthology/D18-1249)
+    
+    Joint extraction of both entity and relation
+    
+    >This paper purpose a fine-tune trick to further boost the performance of the joint extraction model. Different from exist methods, the minimum risk training is more suitable with regard to the F1 evaluation. Moreover, as the empirical risk is intractable, they use a sampling algrithm for approximation.
 
 9. **Large-scale Exploration of Neural Relation Classification Architectures**
     _Hoang-Quynh Le, Duy-Cat Can, Sinh T. Vu, Thanh Hai Dang, Mohammad Taher Pilehvar and Nigel Collier_
