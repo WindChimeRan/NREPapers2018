@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE | Multi-label | Denoise**
+**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE | Multi-label | Denoise | rule | KG**
 
 DSRE: Distant Supervision Relation Extraction
 
@@ -13,6 +13,8 @@ NRE: Neural Relation Extraction
 NRC: Neural Relation Classification
 
 GCN: Graph Convolution Network
+
+KG: Knowledge Graph Inforamtion
 
 Note that DSRE is a big track in RE, including _a denoising preprocessing step_ | _bootstrapping RE_ | _Learning in the noise_ .etc
 
@@ -31,8 +33,8 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     COLING 2018
     [paper](http://aclweb.org/anthology/C18-1036)
 
-    DSRE: Learning in the noise.
-    >we propose a novel neural relation extraction framework with bi-directional knowledge distillation to cooperatively use different information sources and alleviate the noisy label problem in distantly supervised relation extraction.
+    DSRE: Learning in the noise | Denoise | KG | rule 
+    >we propose a novel neural relation extraction framework with bi-directional knowledge distillation to cooperatively use different information sources and alleviate the noisy label problem in distantly supervised relation extraction. Specifically, a soft rule w.r.t entity type is appled to correct the predicted probability.
 
 3. **Exploratory Neural Relation Classification for Domain Knowledge Acquisition**
     _Yan Fan, Chengyu Wang and Xiaofeng He._
@@ -260,7 +262,7 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     EMNLP 2018
     [paper](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf)
     
-    DSRE | GCN
+    DSRE | GCN | KG
     
     >utilizes additional side information from KBs for improved relation extraction. It uses entity type and relation alias information for imposing soft constraints while predicting relations. RESIDE employs Graph Convolution Networks (GCN) to encode syntactic information from text and improves performance even when limited side information is available.
 
