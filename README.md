@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE | Multi-label | Denoise | rule | KG**
+**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE | Multi-label | Denoise | rule | KG | benchmark **
 
 DSRE: Distant Supervision Relation Extraction
 
@@ -304,7 +304,19 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     
     EMNLP 2018
     
-    paper not released
+    [paper](https://www.aclweb.org/anthology/D18-1250)
+    [code](https://github.com/catcd/MASS)
+    
+    NRC | benchmark | excellent visualization
+    
+    >we present a
+systematic large-scale analysis of neural relation
+classification architectures on six benchmark
+datasets with widely varying characteristics.
+We propose a novel multi-channel LSTM
+model combined with a CNN that takes advantage
+of all currently popular linguistic and
+architectural features.
     
 10. **Adversarial training for multi-context joint entity and relation extraction**
     _Giannis Bekoulis, Johannes Deleu, Thomas Demeester and Chris Develder_
