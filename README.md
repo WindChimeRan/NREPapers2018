@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE | Multi-label | Denoise | rule | KG | benchmark **
+**tags: Multi-lingual NRE | DSRE | new task | NRC | Joint extraction of both entity and relation | bootstrapping RE | few shot | GCN | capsule network | document-level RE | Multi-label | Denoise | rule | KG | benchmark | long tail **
 
 DSRE: Distant Supervision Relation Extraction
 
@@ -235,7 +235,12 @@ Note that DSRE is a big track in RE, including _a denoising preprocessing step_ 
     _Xu Han, Pengfei Yu, Zhiyuan Liu, Maosong Sun and Peng Li_
     EMNLP 2018
     
-    paper not released
+    [paper](https://aclweb.org/anthology/D18-1247) [code](https://github.com/thunlp/HNRE)
+    
+    DSRE | long tail
+    
+    > This paper propose a hierarchical attention structure to capture non-long tail feature for enhancing long tail relation classification.
+    eg. /location/location/contains -> /location, /location/location, /location/location/contains. so...
     
     [ppt](https://www.leiphone.com/news/201809/FZM8dsm5CcQpmnNT.html)
 
